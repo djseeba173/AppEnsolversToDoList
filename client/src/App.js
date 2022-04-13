@@ -40,6 +40,8 @@ function App() {
       oldDescription: oldTask,
       newDescription: newTask
     });
+    let old = taskList.find(e=> e.description===oldTask)
+    old.description = newTask
     setNewTask("");
 
   }
