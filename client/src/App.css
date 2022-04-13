@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+ .form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .formInput{
+   width: 300px;
+   height: 60px;
+   margin: 10px;
+ }
+
+ #updateInput{
+   width: 100px;
+   height: 10px;
+ }
+
+.botoncito{
+  width: 55px;
+  height: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.cajita{
+  margin-bottom: 10px;
+}
+
+.div{
+  width: 200px;
+  border: 1px solid green;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
